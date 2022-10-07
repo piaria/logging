@@ -2,12 +2,12 @@ from django.http import HttpResponse
 
 # Create your views here.
 import logging
-logger = logging.getLogger("django")
+
 
 def get_tasks(request):
     """
     func:
         Task management page search
     """
-    logger.info("in get tasks...")
+    logging.info("We've got the tasks")
     return HttpResponse("OK!")
