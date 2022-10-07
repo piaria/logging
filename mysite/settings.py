@@ -132,7 +132,7 @@ LOGGING = {
         'verbose': {'format': '[%(asctime)s %(levelname)s [%(module)s:%(lineno)d] [%(process)d:%(threadName)s] %(message)s'},
         'simple':  {'format': '%(asctime)s %(levelname)s [%(module)s:%(lineno)d] %(message)s'},
         'complex': {'format': '[%(hostname)s source_ip:%(source_ip)s] [UOW:%(uow)s] [%(asctime)s %(levelname)s [%(module)s:%(lineno)d] [%(process)d:%(threadName)s] %(message)s'},
-        'clicOH': {'format': '[%(hostname)s [%(username)s] [%(uow)s] [%(request_id)s]]'},
+        'clicOH': {'format': '[%(asctime)s] [%(hostname)s] [%(username)s] [%(uow)s] [%(request_id)s] [%(levelname)s] [%(module)s:%(lineno)d] %(message)s'},
     },
     'filters': {
         'new_add': {
