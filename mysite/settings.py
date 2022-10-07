@@ -148,7 +148,7 @@ LOGGING = {
         },
     },
     'loggers': {
-        '': {                               # Defines a name django A new logger
+        '': {                                     # Defines a default logger
             'handlers': ['console'],              # It can output log to terminal and file at the same time
             'level': 'INFO',                      # The lowest log level that the logger receives
             'propagate': False,                   # Whether to inherit the log Information ,0: no 1: yes
